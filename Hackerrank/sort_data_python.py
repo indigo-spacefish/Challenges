@@ -45,6 +45,9 @@ def sort_data(arg):
             sub_list.append(int(i))
         as_numbers.append(sub_list)
 
+    for x in as_numbers:
+        assert len(x) == m_value
+
     sorted_output = sorted(as_numbers, key=lambda index: index[k_value])
 
     decorated_output = []
@@ -62,4 +65,5 @@ def sort_data(arg):
 
     return final_output
 
-print sort_data(test_case)
+test = sort_data(test_case)
+print(test)
