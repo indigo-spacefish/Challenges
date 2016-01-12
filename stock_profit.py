@@ -1,3 +1,6 @@
+'''Challenge was to look at a set of given stock prices throughout a day and determine
+what would have been the optimal buy and sale point to maximize profit'''
+
 test_stock_prices = [310, 315, 275, 295, 260, 270, 290, 230, 255, 250]
 
 
